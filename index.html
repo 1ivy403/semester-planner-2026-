@@ -870,9 +870,10 @@
       PPS: "#e11d48"
     };
 
+    const now = new Date();
     const state = {
-      month: 2, // 2026-03
-      year: 2026,
+      month: now.getMonth(),
+      year: now.getFullYear(),
       selectedCourses: new Set(courses),
       onlyOnsite: false,
       quickOnlineDDL: false,
