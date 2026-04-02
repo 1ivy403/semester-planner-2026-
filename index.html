@@ -708,7 +708,7 @@
           ]
         } },
       { date: "2026-04-07", course: "PIA5057", title: "Holiday（no lecture）", onsite: false, graded: false, type: "holiday",
-        how: ["集中彩排 5057 group presentation。"] },
+        how: ["集中彩排 5057 group presentation（已确认 4/14 展示）。"] },
       { date: "2026-04-08", course: "PIA5058", title: "Group Presentation（已确认你在这天）", onsite: true, graded: true, type: "presentation",
         how: ["提前 30 分钟到教室并检查投屏。", "严格控制总时长（20分钟左右）。", "你的发言模块：4.1 环境分析（全生命周期视角），突出“减库存不等于总影响下降”。", "展示后当天开始写 group report。"],
         spec: {
@@ -747,11 +747,20 @@
             "[课表说明] 暂定进度：第12周（2026-04-10）— 小组展示。"
           ])
         } },
-      { date: "2026-04-14", course: "PIA5057", title: "Group Presentation Batch 1", onsite: true, graded: true, type: "presentation",
-        how: ["若你组在 Batch 1：至少演练2次，准备Q&A。"],
+      { date: "2026-04-13", course: "PPS", title: "放松工作坊——咖啡拿铁艺术", onsite: true, graded: false, type: "class",
+        how: ["已交 HKD 200 押金，必须参加活动才退押金。", "时间：15:00–16:30。"],
         spec: {
           studentFocus: [
-            "若你组在 Batch 1：正式小组项目展示，最长 20 分钟，随后约 3–5 分钟 Q&A。",
+            "放松工作坊系列——咖啡拿铁艺术。",
+            "日期：2026年4月13日（星期一）15:00–16:30。",
+            "已缴押金 HKD 200，参加活动后退还；缺席不退。"
+          ]
+        } },
+      { date: "2026-04-14", course: "PIA5057", title: "⭐ Group Presentation（已确认你组在这天）", onsite: true, graded: true, type: "presentation",
+        how: ["已确认你组在 Batch 1 展示。", "至少演练2次，准备Q&A。", "Slides 须提前上传 Canvas。"],
+        spec: {
+          studentFocus: [
+            "✅ 已确认你组在 4/14 Batch 1 展示：正式小组项目展示，最长 20 分钟，随后约 3–5 分钟 Q&A。",
             "总主题：中国大陆、香港与全球语境下的可持续治理；须体现案例与课程主题、阅读的关系。",
             "Slides 须在课前截止日前上传 Canvas；个人 term paper 见 5/3 条目。"
           ],
@@ -792,8 +801,8 @@
         how: ["带 final project 提纲请老师给意见。"] },
       { date: "2026-04-17", course: "PIA6505", title: "Wrap-up + In-class Quiz", onsite: true, graded: true, type: "exam",
         how: ["带电脑，提前复习 Lecture 1-9。", "按 MCQ 复习法准备错题清单。"] },
-      { date: "2026-04-21", course: "PIA5057", title: "Revision week + Group Presentation Batch 2", onsite: true, graded: true, type: "presentation",
-        how: ["若你组在 Batch 2：沿用 4/14 评分点做强化。"],
+      { date: "2026-04-21", course: "PIA5057", title: "Revision week + Group Presentation Batch 2（非你组展示日）", onsite: true, graded: true, type: "presentation",
+        how: ["你组已确认在 4/14 Batch 1 展示，今天是 Batch 2，通常不需要你上台。", "是否必须到场以老师通知为准。"],
         spec: {
           studentFocus: [
             "若你组在 Batch 2：与 4/14 同一套大纲要求（20 分钟上限、3–5 分钟 Q&A、Canvas 提前交 slides）。",
@@ -857,7 +866,8 @@
       PIA5057: "#1d4ed8",
       PIA5058: "#7c3aed",
       PIA5059: "#0f766e",
-      PIA6505: "#b45309"
+      PIA6505: "#b45309",
+      PPS: "#e11d48"
     };
 
     const state = {
