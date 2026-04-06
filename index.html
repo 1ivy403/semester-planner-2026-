@@ -708,14 +708,22 @@
           ]
         } },
       { date: "2026-04-07", course: "PIA5057", title: "Holiday（no lecture）", onsite: false, graded: false, type: "holiday",
-        how: ["集中彩排 5057 group presentation（已确认 4/14 展示）。"] },
+        how: ["集中彩排 5057 group presentation（已确认 4/14 展示）。", "注意：明天 4/8 课前须提交 5057 proposal。"] },
+      { date: "2026-04-08", course: "PIA5057", title: "提交 Proposal（课前，供课堂讨论）", onsite: false, graded: false, type: "submission",
+        how: ["4/8 课前提交你的 proposal 到小组。", "供课堂讨论，为 4/14 正式展示做准备。"],
+        spec: {
+          studentFocus: [
+            "每位组员须在 4/8 课前提交各自的 proposal。",
+            "课堂上进行讨论，整合意见后用于 4/14 正式小组展示。"
+          ]
+        } },
       { date: "2026-04-08", course: "PIA5058", title: "Group Presentation（已确认你在这天）", onsite: true, graded: true, type: "presentation",
         how: ["提前 30 分钟到教室并检查投屏。", "严格控制总时长（20分钟左右）。", "你的发言模块：4.1 环境分析（全生命周期视角），突出“减库存不等于总影响下降”。", "展示后当天开始写 group report。"],
         spec: {
           studentFocus: [
             "你已确认本日上台：小组 PRE，总时长约 20 分钟级（以课堂为准）。",
             "你组大纲已确定；你负责 4.1 环境分析（全生命周期视角）。",
-            "展示后一周内交 group project report（约3000词不含参考文献，见 4/15）。",
+            "展示后交 group project report（约3000词不含参考文献）：4/10 交稿到群，4/14 小组统一提交。",
             "当场记反馈，直接映射到报告修改清单。"
           ],
           original: REF_5058_GROUP_PRESENTATION_REPORT_ORIGINAL.concat([
@@ -729,6 +737,14 @@
         } },
       { date: "2026-04-09", course: "PIA5059", title: "Conclusion: Sustainable development and food futures", onsite: true, graded: false, type: "class",
         how: ["整理 final project 核心问题和研究路径。"] },
+      { date: "2026-04-10", course: "PIA5058", title: "提交 4.8 PRE Paper 到小组群", onsite: false, graded: false, type: "submission",
+        how: ["将你负责的 4.8 展示 paper（环境分析部分）提交到小组群。", "方便组员整合、统一格式后 4/14 一起正式提交。"],
+        spec: {
+          studentFocus: [
+            "内部截止：把你的 paper 稿件发到小组群，供组员整合。",
+            "正式小组提交日为 4/14，提前交稿留出整合与修改时间。"
+          ]
+        } },
       { date: "2026-04-10", course: "PIA6505", title: "Group presentations（已确认你在这天）", onsite: true, graded: true, type: "presentation",
         how: ["你已确认 6505 PRE 在今天。", "提前 30 分钟到场，完成设备与时长检查。", "准备 3 个高频问答并明确组员分工。"],
         spec: {
@@ -771,11 +787,11 @@
           translation: REF_5057_GROUP_PRESENTATION_ZH.concat(["", "[课表说明] 第一批小组展示。"])
         } },
       { date: "2026-04-15", course: "PIA5058", title: "Class Presentation Batch 2（非你组展示日）", onsite: true, graded: true, type: "presentation",
-        how: ["这是 5058 课程的 Batch 2 展示日。", "你已确认在 4/8 展示，今天通常不是你上台。", "是否必须到场以老师课堂要求为准；若不强制，可优先完成报告终稿。"],
+        how: ["这是 5058 课程的 Batch 2 展示日。", "你已确认在 4/8 展示，今天通常不是你上台。", "Group Report 已于 4/14 提交。"],
         spec: {
           studentFocus: [
             "5058 第二批展示日；你已确认在 4/8 展示，今天通常不是你组。",
-            "是否必须到场以老师通知为准；不到场可用来推进 4/15 报告终稿。"
+            "是否必须到场以老师通知为准；不到场可用来推进 4/14 报告终稿。"
           ],
           original: REF_5058_GROUP_PRESENTATION_REPORT_ORIGINAL.concat([
             "",
@@ -786,13 +802,14 @@
             "[课表说明] 第二批展示：2026-04-15（第 13 周）。你已确认在 4/8 展示，本日一般非你组场次。"
           ])
         } },
-      { date: "2026-04-15", course: "PIA5058", title: "Group Project Report 截止（展示后一周）", onsite: false, graded: true, type: "submission",
-        how: ["根据 4/8 反馈补强论证。", "约3000词（不含参考文献），按 Canvas 要求提交。"],
+      { date: "2026-04-14", course: "PIA5058", title: "Group Project Report 正式提交", onsite: false, graded: true, type: "submission",
+        how: ["小组一起正式提交 Group Project Report。", "约3000词（不含参考文献），按 Canvas 要求提交。", "确保 4/10 各组员已交稿，今天统一整合后提交。"],
         spec: {
           studentFocus: [
-            "截止：展示后一周内（你组 4/8 展示 → 本日）。",
-            "Group project report，约 3000 词（不含参考文献），Canvas 小组提交。",
-            "主题须与 presentation 一致；把课堂质疑与反馈写进论证。"
+            "正式截止：小组一起提交 Group Project Report。",
+            "约 3000 词（不含参考文献），Canvas 小组提交。",
+            "主题须与 presentation 一致；把 4/8 课堂质疑与反馈写进论证。",
+            "注意：4/10 已将个人稿件交到小组群，今天统一整合定稿后提交。"
           ],
           original: REF_5058_GROUP_PRESENTATION_REPORT_ORIGINAL,
           translation: REF_5058_GROUP_PRESENTATION_REPORT_ZH
